@@ -1,0 +1,63 @@
+* {
+    background-color: inherit;
+}
+
+header {
+    height: 750px;
+    background-image: url("images/bg.jpg");
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+nav {
+    display: inline-block;
+    background-color: saddlebrown;
+    width: 1480px;
+
+}
+
+footer {
+    background-color: saddlebrown;
+}
+
+ul li {
+    font-size: 1.5rem;
+    display: inline;
+    padding: 10px;
+}
+
+ul li a {
+    color: whitesmoke;
+}
+
+#about {
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#about img {
+    padding: 3px;
+    border-radius: 100px;
+}
+
+#portfolio {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+#portfolio img {
+    width: 600px;
+}
+
+#contacts {
+    text-align: center;
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 3px;
+}

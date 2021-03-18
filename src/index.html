@@ -4,42 +4,55 @@
     <meta charset="utf-8">
     <title>Hello, World!</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
-        <h1>Jane doe, Front-end developer</h1>
-        <h2>About me</h2>
-    </header>
-    <section id="about">
-        <img src="images/person.jpg" alt="Person">
-        <p>Hi, i'm Jane Doe. I've been a junior front-end developer for 5 months now</p>
-        <p>For me, programming is not just a job, it's a hobby</p>
-        <p>I'm open to new knowledge, i like to study new technologies and apply them in practice</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <img width="400x" src="images/project1.png" alt="Project 1">
-        <p>Flashcards</p>
-        <img src="images/project2.png" alt="Project 2">
-        <p>Virtual Piano</p>
-    </section>
-    <section id="contacts">
-        <h2>Contacts</h2>
-        <p>You can contact me at: </p>
-        <img width="100px" src="images/github.svg">
-        <img width="100px" src="images/twitter.svg">
-        <img width="100px" src="images/facebook.svg">
-        <img width="100px" src="images/instagram.svg">
-    </section>
-    <footer>
-        <p>Pierre Vancin</p>
-    </footer>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <h1>Jane doe, Front-end developer</h1>
+</header>
+<section id="about">
+    <img src="images/person.jpg" alt="Person">
+    <h2>About me</h2>
+    <p>Hi, i'm Jane Doe. I've been a junior front-end developer for 5 months now.</p>
+    <p>For me, programming is not just a job, it's a hobby.</p>
+    <p>I'm open to new knowledge, i like to study new technologies and apply them in practice.</p>
+</section>
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <img width="400x" src="images/project1.png" alt="Project 1">
+    <p><button id="w-open">Flashcards</button></p>
+    <div id="window" class="window">
+        <div id="w-header">
+            <h2>Flashcards</h2>
+        </div>
+        <div id="w-body">
+            <p>I did this project when I was studing the frontend on HyperSkill.</p>
+        </div>
+        <div id="w-footer">
+            <button id="w-close">Close</button>
+        </div>
+    </div>
+    <img src="images/project2.png" alt="Project 2">
+    <p><button class="open-window">Virtual Piano</button></p>
+</section>
+<section id="contacts">
+    <h2>Contacts</h2>
+    <p>You can contact me at: </p>
+    <img width="100px" src="images/github.svg" alt="Github">
+    <img width="100px" src="images/twitter.svg" alt="Twitter">
+    <img width="100px" src="images/facebook.svg" alt="Facebook">
+    <img width="100px" src="images/instagram.svg" alt="Instagram">
+</section>
+<footer>
+    <p>Pierre Vancin</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

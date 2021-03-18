@@ -61,3 +61,19 @@ footer {
     font-size: 1.5rem;
     padding: 3px;
 }
+
+.window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 3px solid black;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 1;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    max-width: 80%;
+    overflow: auto;
+}

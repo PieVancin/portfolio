@@ -77,3 +77,13 @@ footer {
     max-width: 80%;
     overflow: auto;
 }
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 899px) {
+    .hamburger {
+        display: block;
+    }
+}
